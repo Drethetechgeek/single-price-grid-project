@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.price-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.top-part-box {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.bottom-left-box {
+    background-color: #009292;
+}
+
+.bottom-right-box {
+    background-color: turquoise;
+}
+.head {
+    color: #009292;
+    font-weight: 700px;
+}
+
+.text {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700px;
+}
+
+.text-two {
+    color: hsl(218, 22%, 67%);
+}
